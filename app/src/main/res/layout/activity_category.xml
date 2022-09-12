@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ui.activities.CategoryActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Cat_Computer"
+                style="@style/mainCardviewStyle"
+                android:backgroundTint="#f0eb79">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        style="@style/CategoryImagePlacement"
+                        app:srcCompat="@drawable/computer" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        style="@style/categoryHeadingTextStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="40dp"
+                        android:gravity="left"
+                        android:text="Computer" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Cat_Inventions"
+                style="@style/mainCardviewStyle"
+                android:backgroundTint="#FF59E7">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        style="@style/CategoryImagePlacement"
+                        app:srcCompat="@drawable/invention" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        style="@style/categoryHeadingTextStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="40dp"
+                        android:gravity="left"
+                        android:text="Inventions"
+                        android:textColor="#ffffff" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Cat_Science"
+                style="@style/mainCardviewStyle"
+                android:backgroundTint="#80e7a9">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        style="@style/CategoryImagePlacement"
+                        app:srcCompat="@drawable/science" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        style="@style/categoryHeadingTextStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="40dp"
+                        android:gravity="left"
+                        android:text="Science"
+                        android:textColor="#ffffff" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Cat_GK"
+                style="@style/mainCardviewStyle"
+                android:backgroundTint="#a084d1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        style="@style/CategoryImagePlacement"
+                        app:srcCompat="@drawable/general" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        style="@style/categoryHeadingTextStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="40dp"
+                        android:gravity="left"
+                        android:text="General Knowledge"
+                        android:textColor="#ffffff" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Cat_Maths"
+                style="@style/mainCardviewStyle"
+                android:backgroundTint="#63c28c">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        style="@style/CategoryImagePlacement"
+                        app:srcCompat="@drawable/maths" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        style="@style/categoryHeadingTextStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="40dp"
+                        android:gravity="left"
+                        android:text="Mathematics"
+                        android:textColor="#ffffff" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Cat_Geography"
+                style="@style/mainCardviewStyle"
+                android:backgroundTint="#cc8d66">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        style="@style/CategoryImagePlacement"
+                        app:srcCompat="@drawable/worldwide" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        style="@style/categoryHeadingTextStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="40dp"
+                        android:gravity="left"
+                        android:text="Geography"
+                        android:textColor="#ffffff" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Cat_Sports"
+                style="@style/mainCardviewStyle"
+                android:backgroundTint="#524d47">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        style="@style/CategoryImagePlacement"
+                        app:srcCompat="@drawable/sports" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        style="@style/categoryHeadingTextStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="40dp"
+                        android:gravity="left"
+                        android:text="sports"
+                        android:textColor="#ffffff" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">E-Learning</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hint_password">password</string>
+    <string name="hint_mobile_no_or_email_id">Email Id or Mobile No.</string>
+    <string name="login">Login</string>
+    <string name="create_an_account">Create an Account</string>
+    <string name="forget_password">Forget Password ?</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="error_invalid_email">Invalid email address</string>
+    <string name="error_short_password">Password can’t be less that 8 letters</string>
+    <string name="invalid_firstName">First name field should not be empty!</string>
+    <string name="invalid_lastName">Last name field should not be empty!</string>
+    <string name="invalid_email">Email field should not be empty and it must contain @!</string>
+    <string name="invalid_password">Password field should not be empty!</string>
+    <string name="invalid_password2">Passwords does not match!</string>
+    <string name="register_succesful">Your account was succesfully created !</string>
+    <string name="appbar_scrolling_view_behavior" translatable="false">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+</resources>

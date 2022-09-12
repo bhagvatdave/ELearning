@@ -1,0 +1,8 @@
+<resources>
+
+    <dimen name="dimen_five">5dp</dimen>
+    <dimen name="dimen_Value">14sp</dimen>
+    <dimen name="default_margin">8dp</dimen>
+    <dimen name="login_margin_top">15dp</dimen>
+    <dimen name="image_view_size">80dp</dimen>
+</resources>
